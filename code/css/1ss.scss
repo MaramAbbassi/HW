@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+body{
+    background-color: #f2f2f2;
+    margin: 0;
+    font-family: 'Poppins';
+}
+.topside{
+    background: white;
+    padding:1em;
+    .rp{
+        text-decoration: none;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        font-size: 1.5em;
+        span{
+            color: hsl(239, 190%, 30%);
+        }
+
+    }
+
+    .container{
+        display: flex;
+       place-content: center;
+        
+    }   
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+section{
+    padding: 5em 2em;
+}
+.lefttop{
+    text-align: left;
+    display: flex;
+     justify-content: space-between;
+    .subhead{
+        text-transform: uppercase;
+        font-weight: bold;
+        color: grey;
+        letter-spacing: 0.1em;
+    }
+    h1{
+        font-size: 2.5em;
+        line-height: 1.3em;
+        margin-top: .1em;
+    }
+    
+        
+        .toprightimg{
+            float: right ;
+        }
+    
+
+}
+h2{
+    background: hsl(239, 190%, 30%);
+    color: white;
+    text-decoration: none;
+    padding: .6em 1.3em;
+    font-size: 1.4em;
+    border-radius: 5em;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+
+
+.bigone{
+    background-color: rgb(157, 140, 185);
+    .cats{
+        float: right;
+        background-color: rgb(80, 118, 128);
+        overflow: hidden;
+        width: 45.8%;
+        ul{
+            li{
+                background: cornflowerblue;
+                font-size: 1.1em;
+                text-align: center;
+                padding: 2em 1em;
+                width: 80%;
+                margin: 0 auto 1em auto;
+                border-radius: 1em;
+        
+               
+            }
+            img{
+                width: 10em;
+                height: 10em;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 1em ;
+                margin-bottom: 1em;
+                display: block;
+                border: 5px solid;
+            }
+        }
+    
+    }
+    .Ducks{
+        float: left;
+        background-color: rgb(65, 80, 143);
+        overflow: hidden;
+        width: 45.75%;
+        ul{
+            li{
+                background: cornflowerblue;
+                font-size: 1.1em;
+                text-align: center;
+                padding: 2em 1em;
+                width: 80%;
+                margin: 0 auto 1em auto;
+                border-radius: 1em;
+        
+               
+            }
+            img{
+                width: 10em;
+                height: 10em;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 1em ;
+                margin-bottom: 1em;
+                display: block;
+                border: 5px solid;
+            }
+        }
+    }
+    
+}

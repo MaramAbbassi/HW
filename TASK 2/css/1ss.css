@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+.topside {
+  background: white;
+  padding: 1em;
+}
+.header  {
+  width: 100%;
+  border: 1px solid black;
+
+}
+.header li {
+  display: inline;
+  
+}
+
+.topside .rp {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 1.5em;
+}
+
+.topside .rp span {
+  color: #000399;
+}
+
+.topside .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+.lefttop {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.lefttop .subhead {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: grey;
+  letter-spacing: 0.1em;
+}
+
+.lefttop h1 {
+  font-size: 2.5em;
+  line-height: 1.3em;
+  margin-top: .1em;
+}
+
+.lefttop .toprightimg {
+  float: right;
+}
+
+h2 {
+  background: #000399;
+  color: white;
+  text-decoration: none;
+  padding: .6em 1.3em;
+  font-size: 1.4em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.bigone {
+  background-color: #9d8cb9;
+}
+
+.bigone .cats {
+  float: right;
+  background-color: #507680;
+  overflow: hidden;
+  width: 45.8%;
+}
+
+.bigone .cats ul li {
+  background: cornflowerblue;
+  font-size: 1.1em;
+  text-align: center;
+  padding: 2em 1em;
+  width: 80%;
+  margin: 0 auto 1em auto;
+  border-radius: 1em;
+}
+
+.bigone .cats ul img {
+  width: 10em;
+  height: 10em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: block;
+  border: 5px solid;
+}
+
+.bigone .Ducks {
+  float: left;
+  background-color: #41508f;
+  overflow: hidden;
+  width: 45.75%;
+}
+
+.bigone .Ducks ul li {
+  background: cornflowerblue;
+  font-size: 1.1em;
+  text-align: center;
+  padding: 2em 1em;
+  width: 80%;
+  margin: 0 auto 1em auto;
+  border-radius: 1em;
+}
+
+.bigone .Ducks ul img {
+  width: 10em;
+  height: 10em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: block;
+  border: 5px solid;
+}
+/*# sourceMappingURL=1ss.css.map */
